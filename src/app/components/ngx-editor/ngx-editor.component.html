@@ -1,0 +1,11 @@
+<p-card header="NgxEditor">
+  <div class="editor">
+    <ngx-editor-menu [editor]="ngxEditor" [toolbar]="toolbar"></ngx-editor-menu>
+    <ngx-editor [editor]="ngxEditor" [(ngModel)]="ngxEditorContent"></ngx-editor>
+  </div>
+  <ng-template pTemplate="footer">
+    <div class="flex justify-content-center">
+      <div>{{ ngxEditorContent }}</div>
+    </div>
+  </ng-template>
+</p-card>

@@ -1,0 +1,12 @@
+<p-card header="Quill">
+  <quill-editor
+    id="ql-editor"
+    [(ngModel)]="editorContent"
+    [modules]="modules"
+  ></quill-editor>
+  <ng-template pTemplate="footer">
+    <div class="flex justify-content-center">
+      <div>{{ editorContent }}</div>
+    </div>
+  </ng-template>
+</p-card>

@@ -1,0 +1,27 @@
+.editor {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  height: 300px;
+}
+
+:host ::ng-deep .NgxEditor__MenuBar {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+:host ::ng-deep .NgxEditor {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: none;
+}
+
+:host ::ng-deep .CodeMirror {
+  border: 1px solid #eee;
+  height: auto;
+  margin-bottom: 0.7rem;
+}
+
+:host ::ng-deep .CodeMirror pre {
+  white-space: pre !important;
+}
