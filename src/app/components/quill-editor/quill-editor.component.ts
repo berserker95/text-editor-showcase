@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { QuillModule, QuillModules } from 'ngx-quill';
@@ -8,10 +8,10 @@ import { CardModule } from 'primeng/card';
   standalone: true,
   imports: [CardModule, QuillModule, FormsModule],
   templateUrl: './quill-editor.component.html',
-  styleUrl: './quill-editor.component.scss'
+  styleUrl: './quill-editor.component.scss',
 })
 export class QuillEditorComponent {
-  @Input() editorContent: string = '';
+  editorContent: string = '';
   modules: QuillModules = {
     toolbar: [
       ['bold', 'italic', 'underline', 'strike'],

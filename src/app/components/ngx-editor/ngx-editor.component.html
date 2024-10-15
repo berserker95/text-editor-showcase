@@ -1,4 +1,7 @@
-<p-card header="NgxEditor">
+<p-card>
+  <ng-template pTemplate="title">
+    <a class="text-decoration-none" href="https://www.npmjs.com/package/ngx-editor/v/12.0.0?activeTab=readme" target="_blank"  rel="noopener noreferrer">NgxEditor</a>
+   </ng-template>
   <div class="editor">
     <ngx-editor-menu [editor]="ngxEditor" [toolbar]="toolbar"></ngx-editor-menu>
     <ngx-editor [editor]="ngxEditor" [(ngModel)]="ngxEditorContent"></ngx-editor>

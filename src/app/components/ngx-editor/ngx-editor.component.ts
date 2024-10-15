@@ -1,4 +1,4 @@
-import { Component, Input, OnDestroy } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Editor, NgxEditorModule, Toolbar } from 'ngx-editor';
 import { CardModule } from 'primeng/card';
@@ -7,10 +7,10 @@ import { CardModule } from 'primeng/card';
   standalone: true,
   imports: [CardModule, FormsModule, NgxEditorModule],
   templateUrl: './ngx-editor.component.html',
-  styleUrl: './ngx-editor.component.scss'
+  styleUrl: './ngx-editor.component.scss',
 })
 export class NgxEditorComponent implements OnDestroy {
-  @Input() ngxEditorContent: string = '';
+  ngxEditorContent: string = '';
   ngxEditor: Editor = new Editor();
   toolbar: Toolbar = [
     ['bold', 'italic'],
@@ -23,8 +23,7 @@ export class NgxEditorComponent implements OnDestroy {
     ['align_left', 'align_center', 'align_right', 'align_justify'],
   ];
 
-
   ngOnDestroy(): void {
     this.ngxEditor.destroy();
-}
+  }
 }
