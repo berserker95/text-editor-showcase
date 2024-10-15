@@ -1,4 +1,7 @@
-<p-card header="Quill">
+<p-card>
+  <ng-template pTemplate="title">
+   <a class="text-decoration-none" href="https://www.npmjs.com/package/ngx-quill" target="_blank"  rel="noopener noreferrer">Quill</a>
+  </ng-template>
   <quill-editor
     id="ql-editor"
     [(ngModel)]="editorContent"
