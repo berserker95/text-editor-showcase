@@ -1,7 +1,11 @@
 
 # 🌟 TextEditorShowcase
 
-Welcome to **TextEditorShowcase**! This project demonstrates the power of rich text editing using three popular libraries: **ngx-editor**, **quill.js** and **syncfusion**. Designed for developers and users, this application provides a user-friendly interface to explore modern text editing capabilities.
+Welcome to **TextEditorShowcase**! This project demonstrates the power of rich text editing using three popular libraries: **ngx-editor**, **quill.js**, and **syncfusion**. Designed for developers and users, this application provides a user-friendly interface to explore modern text editing capabilities.
+
+### 🖥️ [Live Demo](https://670fdb7d21719f9f8a533b1f--frabjous-douhua-483b6d.netlify.app/)
+
+Check out the deployed version of the application [here](https://670fdb7d21719f9f8a533b1f--frabjous-douhua-483b6d.netlify.app/)!
 
 ## 📚 About
 
@@ -50,6 +54,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## 🆘 Further Help
 To get more help on the Angular CLI, use `ng help` or check out the [Angular CLI Overview and Command Reference](https://angular.io/cli).
 
----
-
-Enjoy exploring the world of rich text editing with **TextEditorShowcase**!
