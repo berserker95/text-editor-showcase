@@ -1,7 +1,7 @@
 
 # 🌟 TextEditorShowcase
 
-Welcome to **TextEditorShowcase**! This project demonstrates the power of rich text editing using two popular libraries: **ngx-editor** and **quill.js**. Designed for developers and users, this application provides a user-friendly interface to explore modern text editing capabilities.
+Welcome to **TextEditorShowcase**! This project demonstrates the power of rich text editing using three popular libraries: **ngx-editor**, **quill.js** and **syncfusion**. Designed for developers and users, this application provides a user-friendly interface to explore modern text editing capabilities.
 
 ## 📚 About
 
